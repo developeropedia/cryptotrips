@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <title>CryptoTrips</title>
@@ -34,10 +34,10 @@
                 <div class="collapse navbar-collapse   justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="admin-trip.html">Trip</a>
+                            <a class="nav-link active" aria-current="page" href="trip1.html">Trip</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="admin-users.html">Users</a>
+                            <a class="nav-link" href="index.html">Users</a>
                         </li>
                     </ul>
                 </div>
@@ -47,48 +47,39 @@
     <div class="container mt-4">
 
         <div class="row mt-4 d-flex justify-content-center">
-            <div class="col-lg-10 col-md-12 my-5 ">
+            <div class="col-lg-7  my-5">
                 <div class="main-text mb-3">
-                    <h3 class=" d-flex"><p class="mb-0 mx-2">Users :</p></h3>
+                    <h3 class="d-flex"><p class="mb-0 mx-2">Trips :</p></h3>
                  </div>
-                 <div class="users-table">
-                    <table class="table ">
-                        <thead>
-                          <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Ticket Type</th>
-                            <th scope="col">Ticket Buy</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Mark</td>
-                            <td>@mdo</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>5</td>
-                          </tr>
-                          <tr>
-                            <td>Mark</td>
-                            <td>@mdo</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>5</td>
-                          </tr>
-                          <tr>
-                            <td>Mark</td>
-                            <td>@mdo</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>Pakistan,Mianwali</td>
-                            <td>5</td>
-                          </tr>
-                         
-                        </tbody>
-                      </table>
-                 </div>
-              
+                <div class="user-trips px-2 d-flex">
+                    <p class="me-3"><a href="trip1.html">Trip 1</a></p>
+                    <p class="me-3"><a href="trip2.html">Trip 2</a></p>
+                    <p><a href="trip3.html">Trip 3</a></p>
+                </div>
+                 <form action="" class="px-2">
+                    <div class="mb-3">
+                        <label  class="form-label trip-label">Trip Name</label>
+                        <input type="text" class="form-control input" placeholder="Trip to Europe">
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label trip-label">Price</label>
+                        <input type="number" class="form-control input" placeholder="5000">
+                    </div>
+                     <div class="mb-3">
+                         <label class="form-label trip-label">Features <small>(Press enter to break features)</small></label>
+                         <textarea class="form-control input" rows="3" placeholder="5 nights&#13;&#10;Plane Tickets&#13;&#10;more..."></textarea>
+                     </div>
+                    <div class="mb-3">
+                        <label  class="form-label trip-label">Image</label>
+                        <input type="file" class="form-control input" placeholder="Address">
+                    </div>
+
+                    <div class="my-4  w-100 d-flex justify-content-end">
+                        <button class="form-btn"><a href="#" >
+                        Update
+                        </a></button>
+                    </div>
+                 </form>
             </div>
         </div>
 

@@ -66,6 +66,15 @@ body{
     font-weight: 400 !important;
 }
 
+.user-trips p {
+    color: #fff;
+}
+
+.user-trips a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
 /* cards */
 .pack{
  background-color: var(--primary);
