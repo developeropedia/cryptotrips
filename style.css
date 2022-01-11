@@ -1,0 +1,329 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--primary);
+    font-family: 'Poppins', sans-serif !important;
+  
+}
+:root{
+    --primary:#070c29;
+    --yellow:#f3cd2c;
+}
+.navbar,
+.nav-link{
+    background-color: var(--primary);
+    color: white !important;
+}
+.navbar-brand{
+    color: var(--yellow) !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+.navbar-brand span{
+    color: white !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+.main-heading h2{
+   font-size: 60px;
+   font-weight: 600;
+   color: white;
+}
+.main-heading p{
+    font-size: 65px;
+    font-weight: 600;
+    color: var(--yellow);
+}
+.main-heading p span{
+    font-size: 65px;
+    font-weight: 600;
+    color:white;
+}
+.main-text h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.main-text p{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--yellow);
+}
+.main-text p span{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.text{
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.text2{
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+/* cards */
+.pack{
+ background-color: var(--primary);
+ box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+ border-radius: 7px;
+ overflow: hidden;
+ border: 2px solid var(--yellow);
+}
+.pack-img{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    background-color: tomato;
+}
+.pack-img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    background-color: tomato;
+}
+.pack-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pack-price h2{
+    font-size: 25px;
+    font-weight:600;
+    color: var(--yellow);
+}
+.pack-price h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.pack-detail ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.pack-detail ul li p{
+   text-transform: capitalize;
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 0px;
+   padding: 7px 0px;
+   color: white;
+}
+.pack-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pack-buttons p{
+    font-size: 16px;
+   font-weight: 500;
+   color: var(--primary);
+}
+.pack-buttons a{
+    font-size: 14px;
+   font-weight: 500;
+   background-color: var(--yellow);
+   color: white;
+   text-decoration: none;
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+.modal-content{
+    border:2px solid var(--primary) !important;
+}
+.modal-svg{
+    height: 150px !important;
+    width: 150px !important;
+}
+.modal-btn{
+    background-color: var(--primary);
+    color: white;
+}
+.modal-body{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.all-but-footer{
+   min-height: calc(100vh - 40px);
+}
+.footer{
+    border-top: 2px solid var(--yellow);
+    /* border-radius: 10px; */
+    height: 40px;
+}
+.input{
+    background-color:var(--primary);
+    border: 2px solid var(--yellow);
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+}
+.input:active,
+.input:focus{
+    background-color: var(--primary);
+    border: 2px solid var(--yellow);
+    border-radius: 7px;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+.input::placeholder{
+    color: white;
+}
+.form-btn{
+    background-color: var(--yellow);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 15px;
+}
+.form-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.add__trip-form{
+    background-color: white;
+    padding:20px 15px;
+    border-radius: 7px;
+}
+.active{
+    color: var(--yellow) !important;
+    font-weight: 600;
+}
+.trip-label{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.table>:not(:last-child)>:last-child>*{
+    border-bottom: 2px solid var(--yellow) !important;
+    color: white;
+}
+.table>:not(caption)>*>* {
+    color: white;
+    border-bottom: 1px solid var(--yellow) !important;
+}
+.navbar-light .navbar-toggler{
+color: white !important;
+border: none !important;
+outline: none !important;
+}
+.winner-img{
+  
+    overflow: hidden;
+    border-radius: 100%;
+
+}
+.winner-img img{
+    height:auto;
+    width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.text2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    color: var(--yellow);
+}
+@media screen and (max-width:1024px){
+    .users-table{
+  width: 100%;
+  overflow: scroll;
+    }
+}
+@media screen and (max-width:991px){
+    .main-heading h2{
+        font-size: 40px;
+     }
+     .main-heading p{
+        font-size: 45px;
+        font-weight: 600;
+        color: var(--yellow);
+    }
+    .main-heading p span{
+        font-size: 45px;
+        font-weight: 600;
+        color:white;
+    }
+}
+
+@media screen and (max-width:767px){
+    .main-heading h2{
+        font-size: 30px;
+     }
+     .main-heading p{
+        font-size: 35px;
+        font-weight: 600;
+        color: var(--yellow);
+    }
+    .main-heading p span{
+        font-size: 35px;
+        font-weight: 600;
+        color:white;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .main-heading h2{
+        font-size: 20px;
+     }
+     .main-heading p{
+        font-size: 25px;
+        font-weight: 600;
+        color: var(--yellow);
+    }
+    .main-heading p span{
+        font-size: 25px;
+        font-weight: 600;
+        color:white;
+    }
+}
+
+@media screen and (max-width:500px){
+    .main-heading{
+        flex-direction: column !important;
+     }
+     .main-heading h2{
+        font-size: 16px;
+     }
+     .main-heading p{
+        font-size: 30px;
+    }
+    .main-heading p span{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 14px !important;
+        text-align: justify;
+    }
+    .text2{
+        font-size: 14px !important;
+    }
+    .text2 h3{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .pack-buttons{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pack-buttons a{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
