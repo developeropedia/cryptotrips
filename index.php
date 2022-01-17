@@ -229,7 +229,7 @@
                 <div class="container">
                     <div class="footer">
                         <div class="text-center text2  p-2">
-                            CopyRight
+                            Copyright &copy; 2022 LotteryLand.io. All rights reserved.
                         </div>
                     </div>
                 </div>
