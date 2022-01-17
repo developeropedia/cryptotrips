@@ -112,7 +112,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="pack-buttons1 d-flex justify-content-center">
+                        <div class="pack-buttons1 d-flex flex-column justify-content-center align-items-center">
+                            <small class="text-white">Remaining Tickets : 0/100</small>
                             <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Ticket</a>
                         </div>
                     </div>
@@ -147,7 +148,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="pack-buttons d-flex justify-content-center">
+                        <div class="pack-buttons d-flex flex-column align-items-center justify-content-center">
+                            <small class="text-white">Remaining Tickets : 0/100</small>
                             <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Ticket</a>
                         </div>
                     </div>
@@ -183,7 +185,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="pack-buttons3 d-flex justify-content-center">
+                        <div class="pack-buttons3 d-flex flex-column align-items-center justify-content-center">
+                            <small class="text-white">Remaining Tickets : 0/100</small>
                             <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Ticket</a>
                         </div>
                     </div>
