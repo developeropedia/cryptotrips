@@ -68,7 +68,7 @@
             <div class="col-lg-12 mt-5">
                 <div class="banner">
                     <div class="banner__text order2">
-                        <p class="mb-0 banner-text"> With only $ 1 you can win <span>$ 10,000.</span></p>
+                        <p class="mb-0 banner-text"> With only $ 1 you can win <span> $ 10,000.</span></p>
                         <span>Buy your ticket right now!</span>
                     </div>
                     <img src="images/money.png" alt="" class="img-fluid order1">
@@ -162,7 +162,7 @@
                         </div>
                         <div class="pack-price d-flex align-items-center justify-content-center">
                             <h2>Mega Lotteryland</h2>
-                            <h3 class="mx-3">5K</h3>
+                            <h3 class="mx-3">10K</h3>
                         </div>
                         <div class="pack-detail">
                             <ul>
